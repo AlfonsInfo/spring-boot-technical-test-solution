@@ -1,0 +1,4 @@
+INSERT INTO public.car_brand (
+id, description, name) VALUES (
+'003'::character varying, 'ISUZU'::character varying, 'ISUZU'::character varying)
+ returning id;
